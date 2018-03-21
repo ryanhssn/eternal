@@ -1,0 +1,18 @@
+{
+   "expo": {
+    "name": "Eternal",
+    "icon": "./logo.png",
+    "version": "1.0.0",
+    "slug": "eternal",
+    "sdkVersion": "25.0.0",
+    "ios": {
+      "bundleIdentifier": "com.bilal.eternal"
+    },
+    "android": {
+      "package": "com.bilal.eternal"
+    },
+    "splash": {
+      "image": "./Logo_full.png",        
+    },
+   }
+ }
