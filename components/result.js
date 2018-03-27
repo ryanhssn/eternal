@@ -6,7 +6,7 @@ import ResultItem from './resultItem';
 const Result = (props) =>  {
 
 	if(!props.users){
-		return <Text>No result</Text>
+		return <Text />
 	}
 		const resultItems = props.users.map((user) => {
 			return <ResultItem key={user.memory_id} user={user} />

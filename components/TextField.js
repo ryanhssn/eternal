@@ -20,15 +20,33 @@ class TextFeild extends Component {
 
 	render() {
 		return (
-			<View style={styles.topText}>
+			<View style={localStyle.container}>
                 <TextInput
-                   style={styles.textStyle}
+                   style={localStyle.textBar}
                    underlineColorAndroid='transparent' 
                    placeholder="Enter Memories ID or Name"
                    onChangeText={this.onInputChange} />
                   <Result users={this.state.users} />
              </View>
 		)
+	}
+}
+
+const localStyle = {
+	container: {
+		backgroundColor: '#fff',
+    	//padding: 30,    	
+    	paddingTop: 10,
+    	paddingBottom: 10,
+    	paddingHorizontal: 20,
+    	//marginVertical: 25,
+    	alignItems:'stretch',
+    	
+	},
+	textBar: {
+	    height:30,
+        borderBottomColor: '#32475b',
+        borderBottomWidth: 1,
 	}
 }
 

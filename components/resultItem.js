@@ -6,8 +6,9 @@ const ResultItem = ({user}) => {
 	
 	return (
 		<View style={styles.resultCont}>
-			<Text onPress={() => Linking.openURL(user.url) } style={[styles.result, {fontWeight:'bold'}]}>{user.name}</Text>
-			<Text style={styles.result}>{user.memory_id}</Text>
+			<Text onPress={() => Linking.openURL(user.url) } style={styles.result}>{user.gender}</Text>
+			<Text onPress={() => Linking.openURL(user.url) } style={{}}>{user.memory_id} - </Text>
+			<Text onPress={() => Linking.openURL(user.url) } style={styles.result}>{user.name}</Text>			
 		</View>
 	)
 }

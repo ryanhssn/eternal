@@ -77,7 +77,10 @@ export default StyleSheet.create({
     },
     buttomLogo: {
     	height: 100,
-    	backgroundColor: 'white'        
+    	backgroundColor: 'white',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center'        
     },
     ScannerCont: {
     	flex: 1,
@@ -112,9 +115,16 @@ export default StyleSheet.create({
     },
 
     textStyle: {
+        height:30,
+        borderBottomColor: 'white',
+        borderBottomWidth: 1,
+        
+    },
+    textShow: {
     	height:30,
     	borderBottomColor: 'white',
     	borderBottomWidth: 1,
+        color: 'white'
     	
     },
     orStyle: {
@@ -129,14 +139,23 @@ export default StyleSheet.create({
 
     },
     result: {
-        color: 'white'
+        color: '#32475b',
+        marginRight: 8
     },
     resultCont: {
-        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        backgroundColor: 'rgba(255, 255, 255, 1)',
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'flex-start',
         alignItems: 'center',
-        zIndex:99999999
+        // borderColor: 'red',
+        // borderWidth: 2,
+        padding: 5,
+        marginHorizontal: 7,
+        borderBottomWidth: 1,
+        borderColor: 'rgba(50, 71, 91, 0.3)',
+        zIndex: 9999999999999
+
+
     }
 
 })
