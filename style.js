@@ -42,7 +42,33 @@ export default StyleSheet.create({
 	      flex:1,
 	      opacity: 0.5
 	  },
+       rightScan: {
+         zIndex:9999, 
+          //borderWidth:2,
+          //borderColor: 'white',
+          //backgroundColor: 'white',
+          height: 200,
+          flex:1,
+          //opacity: 0.5,
+          flexDirection: 'column',
+          
 
+     },
+      semi: {
+         // borderWidth:2,
+         // borderColor: 'green',
+         height: 80,
+         backgroundColor: 'rgba(255,255,255,0.5)'
+      },
+      semiFlash: {
+         // borderWidth:2,
+         // borderColor: 'red',
+         height: 40,
+         flexDirection: 'row',
+         justifyContent: 'center',
+         alignItems: 'center',
+         backgroundColor: 'rgba(255,255,255,0.5)'
+      },
 	  middleScan: {
 	  	zIndex:9999, 
         borderWidth:4,
