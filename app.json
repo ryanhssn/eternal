@@ -12,7 +12,8 @@
       "package": "com.bilal.eternal"
     },
     "splash": {
-      "image": "./Logo_full.png",        
+      "image": "./splash.png",
+      "resizeMode": "contain"        
     },
    }
  }
